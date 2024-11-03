@@ -1,0 +1,169 @@
+/* General body styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Container for the table */
+.container {
+    width: 100%;
+    max-width: 1400px;
+    margin: 50px auto;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* Table styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 16px;
+    text-align: left;
+    background-color: white;
+}
+
+/* Table headers */
+table th {
+    background-color: #4a90e2;
+    color: white;
+    padding: 12px 15px;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Table rows */
+table td {
+    padding: 12px 15px;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+}
+
+/* Zebra striping for rows */
+table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Action buttons */
+table a {
+    text-decoration: none;
+    color: #4a90e2;
+    font-weight: bold;
+    padding: 6px 12px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Style for the button container */
+.button-container {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: auto; /* Auto width to shrink the button */
+}
+
+/* Style for the Donate button */
+.button-container button {
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
+    padding: 8px 16px; /* Smaller padding */
+    border: none;
+    border-radius: 5px;
+    font-size: 12px; /* Smaller font size */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100px; /* Fixed small width */
+}
+
+/* Button hover effect */
+.button-container button:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+/* Action buttons hover effect */
+table a:hover {
+    background-color: #4a90e2;
+    color: white;
+}
+
+/* Responsive table */
+@media (max-width: 768px) {
+    table, table thead, table tbody, table th, table td, table tr {
+        display: block;
+    }
+
+    table tr {
+        margin-bottom: 10px;
+    }
+
+    table td {
+        text-align: right;
+        padding-left: 50%;
+        position: relative;
+    }
+
+    table td::before {
+        content: attr(data-label);
+        position: absolute;
+        left: 15px;
+        font-weight: bold;
+        text-align: left;
+    }
+
+    table th {
+        display: none;
+    }
+}
+
+/* Heading styling */
+h1 {
+    text-align: center;
+    font-size: 28px;
+    color: #4a90e2;
+    margin-bottom: 30px;
+}
+
+/* Confirm dialog for delete action */
+.confirm {
+    color: #e74c3c;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/* Submit button styling */
+button {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    font-size: 18px;
+    background-color: #4a90e2;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #357ab8;
+}
+
+/* Container styling */
+.container {
+    padding: 20px;
+}
+
+/* Mobile responsiveness for the container */
+@media screen and (max-width: 768px) {
+    .button-container button {
+        width: 100%;  /* Full width on mobile */
+        font-size: 16px;  /* Slightly larger font on mobile for readability */
+        padding: 10px;
+    }
+}

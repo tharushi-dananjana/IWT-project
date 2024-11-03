@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.mlb{
+    background-image: url(../image/pic17.jpeg);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.content{
+    background-color: rgba(0,0,0,0.3);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+.wrapper{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.pay-link{
+    text-align: center;
+}
+
+h1{
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+.poor{
+    font-size: 20px;
+}
+.min-group{
+    font-size: 15px;
+}
+.donation-options
+{
+    display: flex; 
+    flex-direction: row; 
+    margin-left: 320px;
+    margin-right:390px;
+}
+
+.CFC{
+    transform: scale(1.5);
+    position: relative;
+    margin-top: -65px;
+    margin-left: 320px;
+    padding-bottom:50px;
+}
+
+.button-wide{
+    margin-right: 190px;
+    width: 40px;
+}
+
+.donation-option button{
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: blue;
+    color: aliceblue;
+    border: none;
+    cursor: pointer;
+}
+.donation-option button:hover{
+    background-color: blueviolet;
+}
+form{
+    display: flex;
+    justify-content: space-between;
+    max-width: 900px;
+    height: 500px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 30px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+fieldset{
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+input, select{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+}
+
+.doner-info{
+    width: 100%;
+    
+}
+.donar-info, .payment-info{
+    width: 100%;
+}
+.text-box-container{
+    display: flex;
+    gap: 10px;
+}
+input[type="text"] {
+    padding: 8px;
+    font-size: 16px;
+}
+.form-group{
+    display: flex;
+    align-items: center;
+    margin-bottom: 3px;
+}
+.form-group-label{
+    margin-right: 40px;
+    min-width: 100px;
+}
+.form-group input[type="text"] {
+    padding: 8px;
+    font-size: 16px;
+    margin: 6px;
+}
+label{
+    width: 100px;
+    display: inline-block;
+    margin: 7px;
+}
+.form-wrap{
+    display: flex;
+    margin-bottom: -3px;
+}
+.Nacl{
+    position: static;
+}
+
+.form-wrap input[type="text"] {
+    padding: 8px;
+    font-size: 16px;
+    margin-right: 10px;
+}
+.large-text{
+    font-size: 20px;
+    margin: 10px;
+}
+.small-radio{
+    transform: scale(1.5);
+    margin-left: 75px;
+    margin-top: 12px;
+    position: relative;
+    top: 24px;
+}
+
+

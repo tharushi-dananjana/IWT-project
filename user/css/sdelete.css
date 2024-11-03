@@ -1,0 +1,95 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f3f4f6;
+    background-image: url('../img/pic16.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    background-position: center;
+}
+
+.loggin {
+    background-color: #ffffff; 
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .5);
+    backdrop-filter: blur(20px);
+    border-radius: 10px;
+    padding: 40px 30px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+    width: 400px;
+    max-width: 100%; 
+    text-align: center;
+    
+}
+
+.loggin h1 {
+    margin-bottom: 30px;
+    font-size: 24px;
+    color: #000000; 
+}
+
+.input-box {
+    margin-bottom: 20px;
+}
+
+.input-box .details {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 500;
+    color: #333;
+}
+
+.input-box input {
+    width: 100%;
+    height: 40px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding-left: 10px;
+    font-size: 16px;
+    color: #333;
+    background-color: #f9f9f9;
+    transition: 0.3s;
+}
+
+.input-box input:focus {
+    border-color: #9b59b6; 
+    outline: none;
+    box-shadow: 0 0 8px rgba(155, 89, 182, 0.3); 
+}
+
+.btn {
+    width: 100%;
+    height: 45px;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0,0,0.1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+}
+
+.btn:hover {
+    background-color: #c0392b; 
+}
+
+@media (max-width: 768px) {
+    .loggin {
+        padding: 30px 20px;
+        width: 90%; /
+    }
+}

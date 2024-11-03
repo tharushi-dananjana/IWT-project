@@ -1,0 +1,30 @@
+body{
+    
+    min-height: 100vh;
+    background-image: url('../images/backg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    background-position: center;
+}
+
+.terms{
+    font-size: 17px;
+}
+
+.col1{
+    
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .5);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0,0,0, .2);
+    color: #fff;
+    border-radius: 10px;
+    padding: 30px 40px; 
+   
+}
+
+.col3{
+    float: right;
+    padding-left: 250px;
+}

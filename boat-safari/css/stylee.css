@@ -1,0 +1,154 @@
+
+*{
+  margin: 0%;
+  padding: 0%;
+}
+
+/*change the nav bar */
+.navbar{
+  overflow: hidden;
+  background: linear-gradient(to right,  #00093c , #97820b);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  padding-right: 15px;
+  padding-left: 12px;
+  border-radius: 5px;
+ 
+}
+/*change the navbar div */
+.navdiv{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+/*change the logo desing*/
+.logo{
+  font-size: 35px;
+  font-weight: 500px;
+  color: rgb(159, 166, 222);
+}
+
+/*cahneg the list item desing*/
+li{
+  list-style: none;
+  display: inline-block;
+}
+/*change the listed links desing*/
+li a{
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-decoration:none;
+  float: left;
+  color: white;
+  font-size: 19px;
+  font-weight: bold;
+  margin-right: 2px;
+  padding: 10px;
+  width: 115px;
+  text-align: center;
+}
+/*change the color of link on hover*/
+.navdiv a:hover {
+  border-radius: 18px;
+  background-color: #03417c;
+  color: rgb(6, 246, 222);
+}
+/*change the buttons*/
+.navdiv button{
+  border-radius: 12px;
+  padding: 2px 5px;
+  
+}
+/*change the link on button*/
+.navdiv button a{
+  text-decoration:none;
+
+}
+.userprof{
+  width: 65px;
+  height: 65px;
+  border-radius:100%;
+  
+}
+footer{
+width: 100%;
+left: 0%;
+right: 0%;
+bottom: 0;
+background: linear-gradient(to right, #97820b, #00093c );
+}
+
+
+.logoft{
+  width: 70px;
+  height: 70px;
+  padding-left: 10px;
+  padding-top: 50px;
+}
+.col2{
+  padding-left: 10px;
+  padding-top: 30px;
+  color: beige;
+  float: left;
+  
+  
+}
+.col2 li{
+  display: inline-block;
+}
+
+.logoftt{
+  float: left;
+  padding-bottom: 50px;
+  padding-left: 25px;
+}
+.col3{
+  padding-left: 550px;
+  padding-top: 60px;
+  
+}
+.col3 button{
+  margin-right: 30px;
+  display: inline-block;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ 
+}
+.col4{
+  float: right;
+  padding-right: 50px;
+  
+}
+.col4 img
+{
+  padding-right: 20px;
+}
+.pagelink li{
+  list-style-type:circle;
+  display: flex;
+
+}
+.pagelink{
+  float: left;
+  padding-top: 0px;
+  color:aliceblue ;
+  text-align: start;
+  padding-left: 50px;
+
+}
+.pagelink a{
+  font-size: 10px;
+  padding-top: 0px;
+  text-align: start;
+  width: auto;
+  height: auto;
+  
+}
+.Email{
+  padding-left: 1200px;
+  
+}
+
+.packageimg img{
+  width: 300px;
+  height: 300px;
+  
+
+}
